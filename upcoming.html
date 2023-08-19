@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Upcoming | Chicago Chinese Children Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/5165f6b7e5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="upcoming-sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="upcoming.html">UPCOMING</a></li>
+                    <li><a href="involved.html">GET INVOLVED</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Upcoming</h1>
+    </section>
+
+    <section class="upcoming-text">
+        <div class="upcoming-text-box">
+            <h4>
+                Workshop (10)
+            </h4>
+            <p>
+                When: Mar. 12<br>Where: Zoom meeting (link will be sent the day of)<br>Note: Please make sure your camera is on, and your Zoom name is changed to the child's name
+            </p>
+            <p>
+                
+            </p>
+            <div class="upcoming-image">
+                <img src="images\20220312_pptx (2).png" alt="Upcoming Slideshow 1">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Chicago Chinese Children Club, colloquially abbreviated as CCCC, is an Illinois not for profit corporation whose core mission is, among others, to promote and nurture the Chinese culture and heritage among children in ethnic Chinese families in the Greater Chicago Area.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/ChicagoChineseChildrenClub/"  target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </div>
+        <p><span>&copy;</span>2023 by Chicago Chinese Children Club.<br /> Made by Jesse Chen</p>
+    </section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
