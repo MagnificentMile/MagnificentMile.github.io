@@ -927,7 +927,15 @@ h1 {
     margin: 0 auto;
     margin-bottom: 20px;
 }
-
+@media(max-width: 750px){
+    .waiver-sub-header {
+        height: 20vh;
+        min-height: 150px;
+    }
+    .waiver-sub-header h1 {
+        font-size: 36px;
+    }
+}
 
 
 
